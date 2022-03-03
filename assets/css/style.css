@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("../images/sky-star.jpg") !important;
+}
+
+.courgette{
+    font-family: 'Courgette', cursive;
+}
+
+nav .navbar-nav li a{
+    position: relative;
+    text-decoration: none;
+}
+
+nav .navbar-nav li a:hover{
+    position: relative;
+    text-decoration: none;
+    color: white !important;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav .navbar-nav li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+nav .navbar-nav li a:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.bg-dark{
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.bg-transparent{
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.button-color{
+    background-image: linear-gradient(#8860D0,#B55195);
+}
+
+.parallax-image-index{
+    background-image: url("../images/planets_final_ill.png");
+    min-height: 730px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 40%;
+}
+
+.margin-flex{
+    margin-left: 20%;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 4%;
+}
+
+.seperator{
+    margin-left: 39.8%;
+    margin-top: 2%;
+}
+
+.carousel-item{
+    height: 700px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carousel-item > img{
+    height: 700px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit: cover;
+}
+
+.carousel-control-prev{
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+.carousel-control-next{
+    padding-right: 10%;
+    padding-top: 7%;
+}
+
+.text-color{
+    color: white;
+}
+
+.icons{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.icons:hover{
+    transform: rotate(360deg);
+    height: 70px;
+    width: 70px;
+}
+
+.social-list{
+    list-style-type: none;
+}
+
+.social-list-item{
+    display: inline;
+}
+
+.mg-footer{
+    margin-left: 20%;
+}
+
+.social{
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.back-foot-color{
+    background-color: rgb(49, 49, 49);
+}
+
+.parallax-image-signs{
+    background-image: url("../images/signs_banner.png");
+    min-height: 800px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.date-mg{
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#feedback-card{
+    margin-right: 100%;
+    margin-left: 10%;
+    max-width: 80%;
+}
+
+.signDiv-text{
+    margin-top: 4%;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out 0.5s;
+}
+
+.card-sign:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+.card-sign:active{
+    filter: saturate(2);
+}
+
+.card-link-sign:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.astro-font{
+    font-family: 'Courgette';
+}
+
+.my_picture{
+    border-radius: 30%;
+    width: 20%;
+}
+
+.card-width{
+    width: 18rem;
+}
+
+.pad-cards{
+    margin-left: 8%;
+}
+
+.aries-width{
+    max-width: 1000px;
+    margin-left: 30%;
+}
+
+.card-horizontal-width{
+    max-width: 1300px;
+}
+
+.celebrity-margin{
+    margin-left: 16%;
+}
+
+.personality-card{
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.celebrity-carasouel{
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 1500px;
+}
+
+.card-img-padding{
+    padding-top: 5%;
+}
+
+.popular-title{
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+span{
+    text-decoration: underline;
+}  
+
+.title-top{
+    margin-top: 6% !important;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.rounded-circle{
+    box-shadow: 1px 5px 5px rgba(255, 255, 255, 0.4);
+}
+
+.parallax-image-rubrics{
+    background-image: url("../images/rubrics.png");
+    min-height: 730px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rubrics-cards{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.parallax-image-references{
+    background-image: url("../images/references.png");
+    min-height: 730px; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.video{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+.video > iframe{
+    width: 750px;
+    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.reference-cards{
+    width: 70%;
+    margin-left: 17%;
+}
+
+.comment-container{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.comment-card{
+    max-height: 10rem;
+}
+
+@media only screen and (max-width: 450px){
+    .pad-cards{
+        margin-left: 11%;
+    }
+
+    .seperator{
+        margin-left: 15%;
+    }
+
+    .title-top{
+        margin-top: 20% !important;
+        margin-left: 5% !important;
+    }
+
+    .aries-width{
+        margin-left: 15%;
+        max-width: 300px;
+    }
+
+    .celebrity-carasouel{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .parallax-image-index{
+        background-image: url("../images/planet_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image-signs{
+        background-image: url("../images/signs_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image-rubrics{
+        background-image: url("../images/rubrics_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image-references{
+        background-image: url("../images/refereces_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .video{
+        margin-left: 7%;
+    }
+
+    .video > iframe{
+        width: 350px;
+        height: 250px;
+    }
+
+    .rubrics-cards{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .personality-card{
+        margin-left: 0%;
+    }
+
+    /*Have to put banners and make the height smaller*/
+}
+
+@media only screen and (min-width: 455px) and (max-width: 770px){
+    .seperator{
+        margin-left: 30%;
+    }
+
+    .title-top{
+        margin-top: 20% !important;
+        margin-left: 10% !important;
+    }
+
+    .aries-width{
+        margin-left: 25%;
+        max-width: 400px;
+    }
+
+    .celebrity-carasouel{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .parallax-image-index{
+        background-image: url("../images/planet_small.png");
+        min-height: 600px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image0signs{
+        background-image: url("../images/signs_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image-rubrics{
+        background-image: url("../images/rubrics_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .parallax-image-references{
+        background-image: url("../images/refereces_small.png");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .video{
+        margin-left: 25%;
+    }
+
+    .video > iframe{
+        width: 350px;
+        height: 250px;
+    }
+
+    .rubrics-cards{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .personality-card{
+        margin-left: 0%;
+    }
+
+}
